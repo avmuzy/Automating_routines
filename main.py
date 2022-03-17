@@ -1,10 +1,20 @@
 import pyautogui
 import time
-pyautogui.alert ("time to code ")
-pyautogui.keyDown('ctrl')
-pyautogui.keyDown('alt')
-pyautogui.keyDown('t')
-pyautogui.keyUp('ctrl')
-pyautogui.keyUp('alt')
-pyautogui.keyUp('t')
+pyautogui.alert ("System Up2Date ")
+pyautogui.hotkey('ctrl', 'alt', 't')
+time.sleep(3)
+pyautogui.write('sudo apt update')
+pyautogui.press('enter')
+time.sleep(60)
+pyautogui.write('s')
+pyautogui.press('enter')
+time.sleep(40)
+pyautogui.write('sudo apt upgrade')
+pyautogui.press('enter')
+pyautogui.write('s')
+pyautogui.press('enter')
+
+
+
+
 
