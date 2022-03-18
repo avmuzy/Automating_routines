@@ -17,7 +17,8 @@ pyautogui.write('sudo apt autoremove')
 pyautogui.press('enter')
 pyautogui.write('s')
 pyautogui.press('enter')
-
+pyautogui.write('exit')
+pyautogui.press('enter')
 
 
 
